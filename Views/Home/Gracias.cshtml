@@ -1,0 +1,11 @@
+﻿@model ContactoViewModel
+@{
+    ViewData["Title"] = "Gracias";
+}
+
+<h1>Gracias por ponerte en contacto conmigo @Model.nombre </h1>
+<p>Tu mensaje "@Model.mensaje", será contestado lo más pronto posible</p>
+
+<div>
+    <a asp-controller="Home" asp-action="Index">Volver al Inicio</a>
+</div>
